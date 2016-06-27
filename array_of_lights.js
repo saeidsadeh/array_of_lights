@@ -1,9 +1,9 @@
-var arrayOfLights = function(x){
-array = [];
-for(var i=x; i >= 0; i --){
+function arrayOfLights(x) {
+var array = [];
+for(var i=0; x>=i ; i ++){
   array.push(i);
 }
-console.log(array);
+console.log(array)
 }
 
-arrayOfLights(6);
+arrayOfLights(10);
